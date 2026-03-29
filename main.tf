@@ -28,7 +28,7 @@ module "virtual_machine" {
   name                       = local.resource_names.virtual_machine_name
   sku_size                   = var.virtual_machine_sku
   location                   = var.location
-  zone                       = "1"
+  zone                       = null
   encryption_at_host_enabled = false
 
   source_image_reference = {
