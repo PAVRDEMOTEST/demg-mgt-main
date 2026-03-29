@@ -8,7 +8,7 @@ virtual_network_subnets = {
     address_prefixes = ["10.0.0.0/24"]
   }
 }
-virtual_machine_sku = "Standard_D2s-v5"
+virtual_machine_sku = "Standard_D2s_v5"
 tags = {
   deployed_by = "terraform"
   environment = "dev"
